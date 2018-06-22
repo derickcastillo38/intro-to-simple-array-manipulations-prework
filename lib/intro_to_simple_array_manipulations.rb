@@ -29,3 +29,15 @@ end
 def using_insert(ar, el)
   ar.insert(4,el)
 end
+
+def using_uniq(arr)
+  arr.uniq
+end
+
+def using_flatten(arr)
+  arr.flatten
+end
+
+def using_delete(ar, st)
+  ar.delete(st)
+end
