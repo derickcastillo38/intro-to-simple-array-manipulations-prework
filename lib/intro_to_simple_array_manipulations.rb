@@ -41,3 +41,7 @@ end
 def using_delete(ar, st)
   ar.delete(st)
 end
+
+def using_delete_at(ar, in)
+  ar.delete_at(in)
+end
